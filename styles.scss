@@ -986,3 +986,35 @@ header .right-header{
     }
 }
 }
+.card-deck {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  
+    .card {
+      flex: 1 0 300px; // This will make the card take up a minimum of 300px
+      margin: 15px;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+      transition: 0.3s;
+  
+      &:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+      }
+  
+      .card-body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+  
+        .card-title {
+          margin-bottom: 15px;
+        }
+  
+        i {
+          font-size: 2em;
+        }
+      }
+    }
+  }
