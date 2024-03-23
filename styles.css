@@ -728,6 +728,38 @@ section {
 }
 
 /* Media Queries */
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.header {
+  height: 100px;
+}
+
+.sidebar {
+  width: 25%;
+}
+
+.main-content {
+  width: 75%;
+}
+
+.footer {
+  height: 50px;
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: 100%;
+  }
+  .header, .footer {
+    height: auto;
+  }
+  .sidebar, .main-content {
+    width: 100%;
+  }
+}
 @media screen and (max-width: 400px) {
   .controls {
     top: auto;
