@@ -1105,12 +1105,20 @@ header .right-header{
     .sec2.about {
       flex-direction: column;
       padding: 20px 6%;
+      width: 100%;
+  height: 100vh; /* Adjust the height as needed */
+  overflow: auto;
+  box-sizing: border-box;
     }
   }
   @media (max-width: 600px) {
     .sec3.portfolio {
       flex-direction: column;
       padding: 20px 6%;
+      width: 100%;
+  height: 100vh; /* Adjust the height as needed */
+  overflow: auto;
+  box-sizing: border-box;
     }
   }
   
@@ -1118,5 +1126,9 @@ header .right-header{
     .sec5.contact {
       flex-direction: column;
       padding: 20px 6%;
+      width: 100%;
+  height: 100vh; /* Adjust the height as needed */
+  overflow: auto;
+  box-sizing: border-box;
     }
   }
