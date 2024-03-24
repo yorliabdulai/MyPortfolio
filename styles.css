@@ -1041,4 +1041,29 @@ section {
   font-size: 2em;
 }
 
+@media (max-width: 600px) {
+  .sec2.about {
+    flex-direction: column;
+    padding: 20px 6%;
+  }
+}
+@media (max-width: 600px) {
+  .sec3.portfolio {
+    flex-direction: column;
+    padding: 20px 6%;
+  }
+}
+@media (max-width: 600px) {
+  .sec4.blogs {
+    flex-direction: column;
+    padding: 20px 6%;
+  }
+}
+@media (max-width: 600px) {
+  .sec5.contact {
+    flex-direction: column;
+    padding: 20px 6%;
+  }
+}
+
 /*# sourceMappingURL=styles.css.map */
